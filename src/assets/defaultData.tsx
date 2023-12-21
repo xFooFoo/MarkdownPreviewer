@@ -41,6 +41,8 @@ const defaultData = `
   1. And last but not least, let's not forget embedded images:
 
   ![React Logo w/ Text](https://upload.wikimedia.org/wikipedia/commons/thumb/a/a7/React-icon.svg/1200px-React-icon.svg.png)
+  <br>
+  <br>
   ![freeCodeCamp Logo](https://cdn.freecodecamp.org/testable-projects-fcc/images/fcc_secondary.svg)
 `;
 
