@@ -1,6 +1,8 @@
 h1, h2 {
     text-decoration: underline;
     text-decoration-color: white;
+    margin: 0;
+    padding: 0;
 }
 
 .background {
@@ -59,5 +61,30 @@ h1, h2 {
 
 img {
     max-width: 100%;
-    height: auto;
 }
+
+footer {
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    flex: 1;
+}
+
+    footer .App-logo {
+        -webkit-animation: App-logo-spin infinite 20s linear;
+        animation: App-logo-spin infinite 20s linear;
+        text-align: center;
+    }
+
+    @keyframes App-logo-spin {
+        0% {
+            -webkit-transform: rotate(0deg);
+            transform: rotate(0deg);
+        }
+
+        100% {
+            -webkit-transform: rotate(4000deg);
+            transform: rotate(4000deg);
+        }
+    }

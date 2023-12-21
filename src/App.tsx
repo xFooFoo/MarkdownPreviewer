@@ -2,6 +2,7 @@ import { useState } from 'react'
 import './App.css'
 import { marked } from 'marked';
 import defaultData from './assets/defaultData.tsx';
+import ReactLogo from './assets/react.svg';
 
 // set options
 marked.use({
@@ -32,6 +33,11 @@ function App() {
                 <textarea id="editor" rows={15} cols={70} value={editorContent} onChange={handleEditorChange}></textarea>
                 <div className="toolbar">Preview</div>
                 <div id="preview" dangerouslySetInnerHTML={{ __html: previewContent }} ></div>
+                <footer>
+                    Made by&nbsp;<a href="https://github.com/xFooFoo?tab=repositories">Yariv Fu</a>&nbsp;- 2023&nbsp;&nbsp;&nbsp;
+                    <img className="App-logo" src={ReactLogo} alt="React Logo" />
+                </footer>
+                
             </div>
         </div>
     )
